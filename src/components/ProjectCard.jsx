@@ -2,7 +2,7 @@
 function ProjectCard({ title, description, tech, githubUrl, demoUrl }) {
   return (
     <article className="project-card">
-      <h3 className="project-title">{title}</h3>
+      <h2 className="project-title">{title}</h2>
       <p className="project-description">{description}</p>
       <ul className="tech-list" aria-label={`Technologies used in ${title}`}>
         {tech.map((t) => (
